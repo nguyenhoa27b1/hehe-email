@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const GOOGLE_CLIENT_ID = "939572655563-393g05o2ec4a8s1gg1s6mkd1u91bf1ge.apps.googleusercontent.com";
+const GOOGLE_CLIENT_ID = "148328673757-i77a42b4dh0qf7dg2cu6lo0kvk4a5h3g.apps.googleusercontent.com";
 const client = new OAuth2Client(GOOGLE_CLIENT_ID);
 
 app.use('/uploads', express.static(uploadDir));
