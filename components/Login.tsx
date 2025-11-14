@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useTasks } from '../context/TaskContext';
 // FIX: Removed incorrect import for CredentialResponse, which is a global type defined in google.d.ts.
 
-const GOOGLE_CLIENT_ID = "939572655563-393g05o2ec4a8s1gg1s6mkd1u91bf1ge.apps.googleusercontent.com";
+const GOOGLE_CLIENT_ID = "148328673757-i77a42b4dh0qf7dg2cu6lo0kvk4a5h3g.apps.googleusercontent.com";
 
 const Login: React.FC = () => {
   const { loginWithGoogle, loginWithEmail, signupWithEmail } = useTasks();
